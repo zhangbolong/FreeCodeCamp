@@ -1,34 +1,42 @@
 <style>
   .injected-text {
     margin-bottom: -25px;
-    text-align: center;
+    margin-left: 100px;
+    text-align: left;
   }
 
-  .box {
+  .box-border {
+    
     border-style: solid;
     border-color: black;
-    border-width: 5px;
-    text-align: center;
+    border-width: 1px;
+    
   }
 
   .yellow-box {
+    text-align: center;
+    width: 200px;
     background-color: yellow;
-    padding: 20px 40px 20px 40px;
   }
   
   .red-box {
+      text-align: center;
+      width: 150px;
     background-color: red;
-    margin: 20px 40px 20px 40px;
+    margin: 40px 40px -23px 25px;
   }
 
   .green-box {
+      text-align: center;
+      width: 50px;
     background-color: green;
-    margin: 40px 20px 20px 40px;
+    padding: 50px 10px 50px 10px;
+    margin-left: 65px;
   }
 </style>
-<h5 class="injected-text">margin</h5>
+<h5 class="injected-text">YELLOW</h5>
 
-<div class="box yellow-box">
-  <h5 class="box red-box">padding</h5>
-  <h5 class="box green-box">padding</h5>
+<div class="box-border yellow-box">
+  <h5 class="box-border red-box">RED</h5>
+  <h5 class="box-border green-box">GREEN</h5>
 </div>
